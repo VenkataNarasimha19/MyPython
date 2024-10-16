@@ -1,0 +1,308 @@
+What is Python?
+Python is a high level object oriented programming language.
+Python was developed by Guido van Rossum in 1989 and was released in 1991. The name Python was taken from the popular BBC comedy show of that time, "Monty Python's Flying Circus".
+
+Features of Python:
+1. Easy to Learn and use
+2. Cross platform
+3. Free and Open Source
+4. Object oriented language
+5. Large standard library
+6. Memory Management
+
+Uses of Python:
+1. Desktop Applications
+2. Web Applications
+3. Data Science
+4. Game Development 
+5. Machine Learning
+6. Artificial Intelligence
+
+Popular Python Frameworks and Libraries:
+1. Web development (Server Side) -- Django,Flask, Pyramid, CherryPy
+2. GUIs based applications -- Tk, PyGTK, PyQt, PyJs
+3. Machine Learning -- TensorFlow, PyTorch, Scikit-learn, Matplotlib, SciPy
+4. Mathematics - NumPy, Pandas
+
+Best Python IDEs:
+1. Jupyter Notebook
+2. Visual Studio Code
+3. Sublime text
+4. PyCharm
+5. IDLE
+6. Spyder Notebook
+
+Top Companies using Python:
+Google, Netflix, Facebook, Instagram, Quara and etc.
+
+Python Installation in Windows Machine:
+open Command Prompt(cmd).
+python --version ---> py --> python3
+pip --version -->
+pip install numpy -->
+python -m pip install --upgrade pip -->
+pip install scipy -->
+pip install pandas --> Downloads and install Pandas Libraries
+pip install matplotlib --> 
+python --> will navigate to python terminal and enter below commands.
+import numpy as np ---> if we don't get any error, the python is successfully installed in your machine.
+a=np.array([[1,2,4],[5,7,9]],dtype = 'float')
+print("Array created:\n",a)
+import matplotlib --->
+import pandas --->
+import scipy --->
+
+
+ANACONDA:
+Anaconda is free and opnsource distribution of python and R language.
+Conda is package manager system similar to pip in python.
+
+conda info ---> to check which version of conda installed
+open jupyter notebook --> select new --> enter command as print("India") --> and run the command. will gives the output as India.
+
+
+Who is a Good Python Developer?
+1. A problem-solving mindset
+2. Strong communication skills
+3. An eagerness to learn new tools and libraries
+4. How things work internally and strong technical skills
+
+
+What is Python?
+Python is a general-purpose, interpreted programming language.
+
+Why Become a Python Developer?
+1. Basic Syntax and easily readable
+2. Easy to learn
+3. Fewer lines of code
+4. open-source software
+5. Most productive language
+6. Wide range of applications
+7. Vast and active community
+8. Built-in libraries and frameworks
+9. Python is used by Numerous companies like, Google, IBM, Facebook, Netflix and etc.
+
+
+Fundamentals of Python Programming:
+1. Basic Syntax
+2. Vim, Jupyter Notebook, Google Colab, and Atom
+3. Indentation
+4. Loops, Logical Operators
+5. Data types and variables
+6. Operators
+7. Strings and Numbers
+8. Conditional statements and type conversion
+9. Functions and Built-in Functions
+
+Data Structures and Algorithms(DSA):
+1. Arrays and Linked Lists
+2. Binary Search Trees, Recursion
+3. Python Lists, Tuples
+4. Dictionaries, Sets, and Slicing
+5. Stacks and Queues
+6. Hashing, Hash Tables, Graph Traversing
+7. Sorting algorithms, Divide and conquer
+8. Dynamic Programming.
+
+
+Advanced Concepts in Python:
+1. Object-Oriented Programming
+2. Methods
+3. Functional Programming
+4. Inheritance
+5. Decorators
+6. Lambda Functions
+7. Classes
+8. Regular Expressions
+
+
+GitHub:
+It is an environment to develop your online portfolio and highlight your abilities.
+
+Career Paths after learning these concepts:
+1. Web Development
+2. Machine Learning and Artificial Intelligence
+3. Data Science
+4. Web Scraping and Automation Testing
+
+Data Science:
+To become a Data Science Engineer you should have below skills: 
+1. Good Command over Libraries
+2. Learn statistical analysis
+3. Mathematical formulas
+4. Data Visualization
+5. Data Manipulation
+6. Data Analysis and Interpretation
+7. Learn about Databases
+
+Web Development:
+To become a Web Development Engineer you should have below skills: 
+1. Django or flask framework
+2. HTML, CSS, JavaScript
+3. GUI based web apps
+
+
+Machine Learning and Artificial Intelligence(MLAI):
+To become a MLAI Engineer you should have below skills:
+1. Applied Math and Stats
+2. Machine Learning Algorithms
+3. sci-kit learn, TensorFlow, Keras
+4. Prediction Model
+5. Neural Networks for Deep Learning
+6. Natural Language Processing
+
+Web Scraping and Automation Testing:
+To become a Web Scraping & Automation Testing Engineer you should have below skills:
+1. BeatifulSoup, Requests libraries
+2. Selenium Web Driver
+3. Selenium Grid
+4. Computer Vision
+
+
+First Python Program in command prompt:
+Basic program for division:
+a=5
+b=10
+c=b/a
+print(c)
+
+Write a program in Python IDLE:
+Below are the steps to follow to write and execute the python program in python IDLE.
+1. Open Python IDLE, 
+2. Click on "File Menu" and choose "New File"
+3. Type the program and save it with ".py" extension
+4. Click on "Run" Menu and then click on "Run Module"
+
+Example:
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+c=a+b
+print("Addition of two numbers=",c)
+#save, go to Run, Run Module --->
+#All the statements in the program get executed line by line.
+
+Write a Python program in Jupyter Notebook:
+Example:
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+c=int(input("Enter Third number:"))
+d=a*b*c
+print("Multiplication of three numbers:",d)
+
+
+Variables in Python:
+Python variables are containers for storing data values. Example: car="BMW"
+Python allows you to assign values to multiple variables in one line. Example: x,y,z="Audi","BMW","Mercedes"
+
+a=50, b=a (a and b are the variables and 50 is object)
+
+Rules for Python Variable naming:
+1. A Variable name must start with a letter or the underscore character
+2. A variable name can't start with a number
+3. A variable name can only contain alpha-numeric characters or underscores (A-z,0-9,and _)
+4. A variable names are case-sensitive (date, Date and DATE are three different variables)
+5. There are several techniques to write multi words variables. Example: Camel case,  Pascal case, Snake case.
+6. we can't use python keywords as Variable names.
+
+Examples:
+a=50
+type(a)
+id(a)
+print(a)
+
+a=100
+id(a)
+
+x,y,z = 50, 168.6, "Simplilearn"
+type(y)
+type(z)
+x = y = z = 10 ---> 
+(x,y,z) = 10, 10, 10 --->
+
+
+x = "Simplilearn"
+print("Welcome to " + x)
+
+
+
+Data Types:
+1. Numeric Types (int, float, & complex)
+2. Sequence Types (list, tuple, & range)
+3. Text Type (str)
+4. Mapping Type (dict)
+5. Set Type (set) -- Unordered collection of unique items
+6. Boolean Type (bool)
+7. Binary Types (bytes, bytearray, & memoryview)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
