@@ -320,6 +320,25 @@ Identity Operators ---> is, is not
 Membership Operators ---> in, not in
 
 
+Lists in Python:
+A list can be defined as a collection of objects, values, or items of different types. These collections are enclosed within square brackets[] and separated by commas(,).
+
+Characteristics of List:
+1. The Lists are ordered
+2. Lists are mutable
+3. Lists can store various types of elements
+4. Elements of the list can be accessed by index
+5. Lists allow duplicate elements
+
+Methods in List:
+1. Append: List1.append(elem)
+2. Insert: List1.insert(index,elem)
+3. Extend: List1.extend(list2)
+4. Index: List1.index(elem)
+5. Remove: List1.remove(elem)
+6. Sort: List1.sort()
+7. Reverse: List1.reverse()
+
 
 
 
