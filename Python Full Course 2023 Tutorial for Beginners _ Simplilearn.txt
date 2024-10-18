@@ -340,6 +340,23 @@ Methods in List:
 7. Reverse: List1.reverse()
 
 
+Tuples in Python:
+A tuple can be defined as a collection of objects, values, or items of different types and these collections are enclosed within circle brackets() and separated by commas(,).
+
+Characteristics of Tuples:
+1. The Tuples are ordered.
+2. Tuples are immutable.
+3. Tuples can store various types of elements.
+4. Elements of the Tuples can be accessed by index.
+5. Tuples allow duplicate elements.
+
+Methods in Tuple:
+1. Index: Tup1.index(elem)
+2. Slicing: Tup1[range]
+3. Concatenation: Tup1+Tup2
+4. Repetition: Tup1*x
+5. Count: Tup1.count(elem)
+
 
 
 
