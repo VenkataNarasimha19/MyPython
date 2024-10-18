@@ -358,6 +358,23 @@ Methods in Tuple:
 5. Count: Tup1.count(elem)
 
 
+Dictionaries in Python:
+Python Dictionary can be defined as a collection of objects, values or items of different types stored in key-value pair format. These multiple key-value pairs created are enclosed within the curly braces{}, and each key is separated from its value by the colon(:).
+
+Characteristics of Dictionaries:
+1. The Dictionaries are ordered from python version 3.7
+2. Dictionaries are mutable
+3. Dictionaries can store various types of elements
+4. Elements of the Dictionaries can not be accessed by index
+5. Dictionaries doesn't allow duplicate elements.
+
+Methods in Dictionaries:
+1. Clear: Dict1.clear()
+2. get: Dict1.get(keyname)
+3. keys: Dict1.keys()
+4. pop: Dict1.pop(keyname)
+5. popitem: Dict1.popitem()
+
 
 
 
