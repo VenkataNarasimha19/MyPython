@@ -219,13 +219,12 @@ type(z)
 x = y = z = 10 ---> 
 (x,y,z) = 10, 10, 10 --->
 
-
 x = "Simplilearn"
 print("Welcome to " + x)
 
 
 
-Data Types:
+Data Types in Python:
 1. Numeric Types (int, float, & complex)
 2. Sequence Types (list, tuple, & range)
 3. Text Type (str)
@@ -233,6 +232,94 @@ Data Types:
 5. Set Type (set) -- Unordered collection of unique items
 6. Boolean Type (bool)
 7. Binary Types (bytes, bytearray, & memoryview)
+
+
+Object Types in Python:
+1. Lists
+2. Dictionaries
+3. Files
+4. Sets
+5. Program unit types
+6. Numbers
+7. Strings
+8. Tuples
+9. Other core types
+10. Implementation related types
+
+Types of Type Conversion in Python:
+1. Implicit Type Conversion
+2. Explicit Type Conversion [int(a, base), float(), ord(), hex(), oct(), tuple(), set(), list(), dict(), str(), complex(real, imag), chr(number)]. Syntax: <required_datatype>(expression)
+
+
+Different Data Types:
+Types of Number Data Types:  int, float, & complex.
+
+Type Conversion Between Numbers in Python: 
+1. Using Arithmetic Operations (Implicit Conversion).
+2. Using Built-in functions (Explicit Conversion).
+
+Representation of Binary, Hexadecimal & Octal in Python:
+Binary -- 0b or 0B
+Octal  -- 0o or 0O
+Hexadecimal -- 0x or 0X
+
+
+String in Python:
+A String is a sequence of characters. In Python, we have str as a data type for string.
+Strings can be defined by surrounding characters inside single or double quotes.
+
+Examples for Strings:
+str1='Simplilearn'
+str2="Lets us learn python"
+str3='''Hai Everyone
+welcome to Python
+strings tutorial class''' ----> this is multiline string
+
+print("{} and {} both are best friends". format("James","Bred"))
+print("{1} and {0} both are best friends". format("James","Bred"))
+print("{a} and {b} both are best friends". format(a="James",b="Bred"))
+
+name='Angela'
+salary=10000
+print("Her name is %s\nHer salary is %d"%(name,salary))
+
+
+str1='simplilearn'
+str2=str1.capitalize()
+print("Old value:", str1)
+print("New value:", str2)
+
+str1='SIMPLILEARN'
+str2=str1.casefold()
+print("Old value:", str1)
+print("New value:", str2)
+
+str1='sImpliLeaRn'
+str2=str1.upper()
+print("Old value:", str1)
+print("New value:", str2)
+
+str1='SIMPLILEARN'
+str2=str1.title()
+print("Old value:", str1)
+print("New value:", str2)
+
+str1='Hamburg is located in Germany'
+str2=str1.split()
+print(str1)
+print(str2)
+
+
+Different Types of Operators in Python:
+Arithmetic Operators ---> +,-,*,/,%,**,
+Comparison Operators ---> <,>,<=,>=,!=,==
+Assignment Operators ---> =,+=,-=,*=,%=,**=,///=
+Logical Operators ---> and, or, not
+Bitwise Operators ---> &, |, >>, <<, ~
+Identity Operators ---> is, is not
+Membership Operators ---> in, not in
+
+
 
 
 
