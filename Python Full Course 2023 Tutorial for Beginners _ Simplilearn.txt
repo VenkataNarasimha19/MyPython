@@ -376,6 +376,22 @@ Methods in Dictionaries:
 5. popitem: Dict1.popitem()
 
 
+If statement in Python:
+
+Syntax:
+if(condition):
+{
+  # if statement
+}
+elif(condition):
+{
+  # elif statement
+}
+else:
+{ 
+  # else statement
+}
+
 
 
 
