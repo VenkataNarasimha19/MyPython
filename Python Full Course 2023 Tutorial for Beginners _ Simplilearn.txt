@@ -431,6 +431,28 @@ else:
 
 
 
+While Loop:
+The while loop in Python iterates over a part of code until the specified condition is true.
+
+Syntax:
+while expression:
+       statement(s)
+
+Examples:
+i = 0
+while i < 10:
+    i = i+1
+    print(i, end=" ")
+    print()
+
+count = 0
+while count <= 5:
+    print("The condition is true", count)
+    count = count+1
+print("End of the loop")
+
+
+
 
 
 
