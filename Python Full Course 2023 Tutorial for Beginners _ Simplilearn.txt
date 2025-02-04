@@ -645,6 +645,38 @@ for i in zip_longest(first, last, fillvalue = 'Not Defined'):
 
 
 
+Functions in Python:
+what is a Function in Python:
+A Function is a bunch of related statements that are defined to perform a specific task.
+Functions helps fragment our program into smaller and modular chunks.
+Functions allows you to make extensive programs more organized and manageable.
+It also avoids repetition and makes the code reusable.
+
+Types of Functions:
+Built-in Functions: Functions that are built into python. Built-in Functions are pre-defined functions in python. Ex: pow(), abs(), print(), round(), len(), range(), next(), max(), slice(), sorted().
+
+User Defined Functions: Functions defined by users themselves. These functions are defined by user to perform a specific task.
+
+Steps to create a user-defined function:
+1) Creating a function.
+2) Calling a function.
+
+Syntax: 
+def my_function(parameters):
+       function_block
+return expression
+
+Example: 
+def my_function():
+    print("Hello Python")
+
+Advantages of Using Functions:
+With the help of functions, we can avoid rewriting the same logic or code again and again in a program.
+In a single program, we can call Python functions anywhere multiple times.
+we can track an extensive python program easily when it is divided into numerous functions.
+The main achievement of python functions is its Reusability.
+
+
 
 
 
