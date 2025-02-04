@@ -570,6 +570,82 @@ for i in range(0,n):
 
 
 
+Python Loop Coding Techniques:
+
+num = [2,5,10,4,50,36,50,49]
+for i in sorted(num):
+    print(i)
+
+num = [2,5,10,4,50,36,50,49]
+for i in sorted(num, reverse = True):
+    print(i)
+
+players = ['Messi', 'Ronaldo', 'Salah', 'Harry']
+for i in sorted(players, reverse = True):
+    print(i)
+
+d = {'f':1, 'b':4, 'a':3, 'e':9, 'c':2}
+for i in sorted(d.values()):
+    print(i)
+
+players = ['Messi', 'Ronaldo', 'Salah', 'Harry']
+for i in reversed(players):
+    print(i)
+
+animals = [{"name": "Dogs", "age": 11}, {"name": "Lion", "age": 30}, {"name": "Elephant", "age": 63}, {"name": "Leopard", "age": 18}]
+for animals in filter(lambda i: i["age"]%2 == 0, animals):
+    print(animals)
+
+country = ['India', 'Canada', 'Brazil', 'Japan', 'Israel']
+while country:
+    print(country.pop(-1))
+
+num = 10
+while num > 0: num -= 1; print(num)
+
+
+while True:
+    num = int(input("Enter an integer: "))
+    print("The product of ", num, "Multiplied by 5 is", 5 * num)
+
+for i in enumerate(['The', 'brown', 'for', 'jumped', 'over', 'the', 'lazy', 'dog', '*']):
+    print(i)
+
+for key, value in enumerate(['The', 'brown', 'for', 'jumped', 'over', 'the', 'lazy', 'dog', '*']):
+    print(key, value)
+
+for key, value in enumerate(['The', 'brown', 'for', 'jumped', 'over', 'the', 'lazy', 'dog', '*']):
+      print(value, end=' ')
+
+company = 'Simplilearn'
+for i , j in enumerate(company):
+    print(i, j)
+
+company = 'Simplilearn'
+for i in enumerate(company, start =10):
+    print(i)
+
+first = ['Lionel', 'Cristiano', 'Mohamed']
+last = ['Messi', 'Ronaldo', 'Salah']
+for i in zip(first, last):
+    print(i)
+
+
+first = ['Lionel', 'Cristiano', 'Mohamed']
+last = ['Messi', 'Ronaldo', 'Salah']
+num = [1,2,3,4,5,6,7,8]
+for i in zip(first, last, num):
+    print(i)
+
+from itertools import zip_longest
+first = ['Lionel', 'Cristiano', 'Mohamed', 'Lionel', 'Cristiano', 'Mohamed']
+last = ['Messi', 'Ronaldo', 'Salah']
+for i in zip_longest(first, last, fillvalue = 'Not Defined'):
+    print(i)
+
+
+
+
 
 
 
