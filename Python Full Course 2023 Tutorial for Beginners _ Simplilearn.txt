@@ -453,6 +453,120 @@ print("End of the loop")
 
 
 
+For Loop:
+What is a For Loop in Python?
+For loop has the potential to iterate over the items present in a sequence, such as lists, tuples, dictionaries, or strings.
+
+A for loop uses the range() function to iterate for a specific amount of time.
+
+Syntax of a For Loop: 
+for iterator_var in sequence:
+         statement(s)
+Rest of the code
+
+
+s = 'Simplilearn'
+for i in s:
+    print(i)
+
+s = 'Simplilearn'
+for i in s:
+    print(i, end="*")
+
+# Use for Loop in a list
+programming = ["Java", "Python", "Ruby", "HTML"]
+for iter in programming:
+    print(iter)
+
+
+# Find the avg of list of numbers using For Loop:
+list_num = [20,25,10,50,45]
+sum = 0
+for i in list_num:
+    sum = sum + i
+print("Sum =", sum)
+print("Average =", sum/len(list_num))
+
+
+# For Loop using a Tuple
+num = (30,45,60,50,70)
+sum = 0
+for i in num:
+    sum = sum + i
+print(sum)
+
+# range function
+for i in range(1, 10):
+    print(i)
+
+for i in range(0, 10, 2):
+    print("Display values with a step size of 2:", i)
+
+
+# Program to print table of a given number:
+n = int(input("Enter the number "))
+for i in range(1,11):
+    mul = n*i
+    print(n, "*", i "=",mul)
+
+list2 = ['C++', 'Java', 'Python', 'Ruby']
+for i in range(len(list2)):
+    print("Hello", list2[i])
+
+
+# Nested For Loop:
+companies = ["Google", "Apple", "PWC", "Uber", "Infosys"]
+for i in companies:
+    print("We will display each letter of" +i)
+    for letter in i:
+        print(letter)
+
+# For Loop with else clause:
+for i in range(0,10,3):
+    print(i)
+else:
+    print("The loop has completed execution")
+
+
+# Break
+for i in range(1,10):
+    if(i==6):
+        break
+    print(i)
+
+
+# Continue
+for i in range(1,10):
+    if(i==6):
+        continue
+    print(i)
+
+
+# Program to display the total goals a player scored:
+player_name = "Carmelo"
+goals = {'Edison':14, 'Bernat':3, 'Carmelo': 7}
+for player in goals:
+    if player == player_name:
+        print(goals[player])
+        break
+else:
+    print('No player with that name found.')
+
+
+# Cube of number:
+num = [2,3,4,5,7,8,6]
+cube = []
+for i in num:
+    cube.append(i**3)
+print(cube)
+
+
+# Pattern printing:
+n = int(input("Enter the number of rows "))
+for i in range(0,n):
+    for j in range(0, i+1):
+        print("*", end ="")
+    print()
 
 
 
