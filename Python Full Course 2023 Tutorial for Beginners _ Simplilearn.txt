@@ -661,7 +661,7 @@ Steps to create a user-defined function:
 1) Creating a function.
 2) Calling a function.
 
-Syntax: 
+Syntax for user defined function: 
 def my_function(parameters):
        function_block
 return expression
@@ -675,6 +675,92 @@ With the help of functions, we can avoid rewriting the same logic or code again 
 In a single program, we can call Python functions anywhere multiple times.
 we can track an extensive python program easily when it is divided into numerous functions.
 The main achievement of python functions is its Reusability.
+
+
+# Built-in Functions:
+#abs
+a = abs(10.75)
+b = abs(-10.75)
+print(a)
+print(b)
+
+#len
+list1 = ['I','N','D','I',''A']
+x = len(list1)
+print(x)
+
+# all
+my_list = [0,1,0]
+
+x = all(my_list)
+print(x)
+
+# sum
+s = sum([20,35,70])
+s1 = sum((7,5,9)
+print(s)
+print(s1)
+
+# max and min
+m1 = max(7,10,3,12,61,40)
+print(m1)
+m2 = max({7,90,3,150,67,44})
+print(m2)
+m3 = min({7,90,3,150,67,44})
+print(m3)
+
+# iter
+mylist = iter(['I','N','D','I',''A'])
+x = next(mylist)
+print(x)
+
+x = next(mylist)
+print(x)
+
+# pow()
+x1 = pow(3,3)
+x2 = pow(2,4)
+print(x1)
+print(x2)
+
+# range()
+x = range(6)
+for n in x:
+    print(n)
+
+x = range(40, 50, 2)
+for n in x:
+    print(n)
+
+# round()
+x = round(8.62475, 2)
+print(x)
+
+# sorted()
+a = ['I','N','D','I',''A']
+x = sorted(a, reverse = True)
+print(x)
+
+a = [12,50,38,76,27,80,5]
+x = sorted(a, reverse = True)
+print(x)
+
+# slice()
+s = ("S", "I", "M", "P", "L", "I"]
+x = slice(4)
+print(a[x])
+
+# user defined functions:
+def func1():
+print("Hello world!)
+
+func1()
+
+
+
+
+
+
 
 
 
